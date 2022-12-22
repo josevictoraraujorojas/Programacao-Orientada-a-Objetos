@@ -37,7 +37,7 @@ informações eles podem armazenar."
 #### Codigo:
 
 ```java
-class Carro {
+class DefinicaoBasica.Carro {
 
 }
 ```
@@ -49,7 +49,7 @@ estrutura de dados. O conjunto destes será responsável
 por representar suas características e fará parte dos
 objetos criados a partir da classe." 
 
-- Exemplos: Carro-Cor, Bola-Diametro, Venda-Vlor, Viagem-Distancia, Comprador-nome, Computador-Memoria
+- Exemplos: DefinicaoBasica.Carro-Cor, Bola-Diametro, Venda-Vlor, Viagem-Distancia, Comprador-nome, Computador-Memoria
 
 #### Dicas:
 
@@ -62,7 +62,7 @@ objetos criados a partir da classe."
 #### Códigos:
 
 ```java
-class Carro {
+class DefinicaoBasica.Carro {
     int portas;
 }
 ```
@@ -73,7 +73,7 @@ class Carro {
 que a classe oferece. Eles são responsáveis por definir
 e realizar um determinado comportamento" 
 
-- Exemplos: Carro-ligar, Venda-calcular total, Computador-desligar, Comprador-realizar troca
+- Exemplos: DefinicaoBasica.Carro-ligar, Venda-calcular total, Computador-desligar, Comprador-realizar troca
 
 #### Criação:
 
@@ -91,7 +91,7 @@ e realizar um determinado comportamento"
 #### Códigos:
 
 ```java
-class Carro {
+class DefinicaoBasica.Carro {
     void frear(){
         
     }
@@ -103,8 +103,8 @@ class Carro {
 - Construtor
 
 ```java
-class Carro {
-    Carro(){
+class DefinicaoBasica.Carro {
+    DefinicaoBasica.Carro(){
         
     }
 }
@@ -112,7 +112,7 @@ class Carro {
 - Destrutor
 
 ```java
-class Carro {
+class DefinicaoBasica.Carro {
     void finalize(){
         
     }
@@ -145,16 +145,16 @@ instanciados objetos distintos."
 #### Criação:
 
 ```java
-Carro carro = new Carro();
+DefinicaoBasica.Carro carro = new DefinicaoBasica.Carro();
 ```
 ### Mensagem
 
 "É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução  de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático."
 
 ```java
-Carro carro = new Carro();
+DefinicaoBasica.Carro carro = new DefinicaoBasica.Carro();
 carro.<método>;
-Carro.<método>;
+DefinicaoBasica.Carro.<método>;
 ```
 
 ## Herança
