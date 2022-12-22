@@ -67,6 +67,72 @@ class Carro {
 }
 ```
 
+### Método
+
+"É uma porção de código (sub-rotina) disponibilizada pela classe. Este é executado quando é feita uma requisição a ele. Um método serve para identificar quais serviços, ações,
+que a classe oferece. Eles são responsáveis por definir
+e realizar um determinado comportamento" 
+
+- Exemplos: Carro-ligar, Venda-calcular total, Computador-desligar, Comprador-realizar troca
+
+#### Criação:
+
+- Visibilidade
+- Retorno
+- Nome
+- Parâmetros
+
+#### Dicas:
+
+- Verbos
+- Nome significativos
+- Contexto deve ser considerado
+
+#### Códigos:
+
+```java
+class Carro {
+    void frear(){
+        
+    }
+}
+```
+
+#### Dois métodos especiais:
+
+- Construtor
+
+```java
+class Carro {
+    Carro(){
+        
+    }
+}
+```
+- Destrutor
+
+```java
+class Carro {
+    void finalize(){
+        
+    }
+}
+```
+
+##### sobregarga
+
+Mudar a assinatura conforme a necessidade
+Assinatura: nome + parâmetros
+
+m1()
+
+m1(int i)
+
+m1(float f)
+
+m1(String s, long l)
+
+m1(long l, String s)
 
 
 
