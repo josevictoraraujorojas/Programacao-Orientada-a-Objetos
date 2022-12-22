@@ -145,7 +145,7 @@ instanciados objetos distintos."
 #### Criação:
 
 ```java
-DefinicaoBasica.Carro carro = new Carro();
+Carro carro = new Carro();
 ```
 ### Mensagem
 
