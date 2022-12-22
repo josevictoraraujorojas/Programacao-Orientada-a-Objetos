@@ -180,9 +180,9 @@ A classe filha tem só uma classe mãe
 #### Múltipla
 A classe filha tem uma ou mais classes mães
 
-[] Java
+[ ] Java
 
-[] C#
+[ ] C#
 
 [x] Python
 
