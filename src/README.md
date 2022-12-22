@@ -157,6 +157,39 @@ carro.<método>;
 Carro.<método>;
 ```
 
+### Herança
+
+"É o relacionamento entre classes em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse (classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue
+reaproveitar os atributos e métodos dela. Além dos que
+venham a ser herdados, a subclasse pode definir
+seus próprios membros."
+
+#### Códigos:
+
+```java
+class A extends B {
+    
+}
+```
+
+### Tipos de herança:
+
+#### Simples
+A classe filha tem só uma classe mãe
+
+#### Múltipla
+A classe filha tem uma ou mais classes mães
+
+[] Java
+
+[] C#
+
+[x] Python
+
+[x] C++
+
+
+
 
 
 
