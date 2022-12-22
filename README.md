@@ -37,7 +37,7 @@ informações eles podem armazenar."
 #### Codigo:
 
 ```java
-class DefinicaoBasica.Carro {
+class Carro {
 
 }
 ```
@@ -62,7 +62,7 @@ objetos criados a partir da classe."
 #### Códigos:
 
 ```java
-class DefinicaoBasica.Carro {
+class Carro {
     int portas;
 }
 ```
@@ -91,7 +91,7 @@ e realizar um determinado comportamento"
 #### Códigos:
 
 ```java
-class DefinicaoBasica.Carro {
+class Carro {
     void frear(){
         
     }
@@ -103,8 +103,8 @@ class DefinicaoBasica.Carro {
 - Construtor
 
 ```java
-class DefinicaoBasica.Carro {
-    DefinicaoBasica.Carro(){
+class Carro {
+    Carro(){
         
     }
 }
@@ -112,7 +112,7 @@ class DefinicaoBasica.Carro {
 - Destrutor
 
 ```java
-class DefinicaoBasica.Carro {
+class Carro {
     void finalize(){
         
     }
@@ -145,16 +145,16 @@ instanciados objetos distintos."
 #### Criação:
 
 ```java
-DefinicaoBasica.Carro carro = new DefinicaoBasica.Carro();
+DefinicaoBasica.Carro carro = new Carro();
 ```
 ### Mensagem
 
 "É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução  de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático."
 
 ```java
-DefinicaoBasica.Carro carro = new DefinicaoBasica.Carro();
+DefinicaoBasica.Carro carro = new Carro();
 carro.<método>;
-DefinicaoBasica.Carro.<método>;
+Carro.<método>;
 ```
 
 ## Herança
