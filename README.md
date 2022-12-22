@@ -134,7 +134,7 @@ m1(String s, long l)
 
 m1(long l, String s)
 
-### Objeto
+## Objeto
 
 "Um objeto é a representação de um conceito/entidade do mundo
 real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para esse
@@ -157,7 +157,7 @@ carro.<método>;
 Carro.<método>;
 ```
 
-### Herança
+## Herança
 
 "É o relacionamento entre classes em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse (classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue
 reaproveitar os atributos e métodos dela. Além dos que
@@ -187,13 +187,3 @@ A classe filha tem uma ou mais classes mães
 [x] Python
 
 [x] C++
-
-
-
-
-
-
-
-
-
-
