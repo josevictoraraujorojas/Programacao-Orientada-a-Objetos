@@ -152,7 +152,7 @@ DefinicaoBasica.Carro carro = new Carro();
 "É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução  de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático."
 
 ```java
-DefinicaoBasica.Carro carro = new Carro();
+Carro carro = new Carro();
 carro.<método>;
 Carro.<método>;
 ```
