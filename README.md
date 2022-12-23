@@ -186,4 +186,30 @@ A classe filha tem uma ou mais classes mães
 
 [x] Python
 
-[x] C++
+[x] 
+
+#### Upcast e Downcast
+
+- Upcast e uando a subclasse se transforma numa classe mae
+- Downcas e quando uma classe mae se transforma numa filha ou subclasse
+
+#### Upcast
+
+```java
+A a = new B();
+```
+
+#### Downcast
+
+```java
+B a = B()new A();
+```
+
+#### Polimofismo
+
+"A mesma ação, se comportando diferente."
+
+#### Sobrescrita
+
+"A mesma ação, podendo se comportar diferente. "
+
